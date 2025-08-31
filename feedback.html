@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="icon" href="cutlery.png" type="image/icon">
+    <meta content="title" property="welcome to our halal food restaurant">
+    <meta content="image" property="">
+    <meta content="url" property="halal.avif">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page-two.html">Menu</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>    
+        </nav>
+          <h1>Feedback</h1>
+          <p>Please provide us with some feedback so we could improve our foods and service.</p>
+    
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Personal Information:</legend>
+                <label for="user-name">Name:</label>
+                <input id="user-name" type="text" name="user-name"   required placeholder="Mr. John Junior">
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="forexample@email.com" required>
+                <label for="age">Age</label>
+                <input id="age" type="number" name="age" value="age" max="100"  mini="5">
+            </fieldset>
+            <fieldset>
+                <legend>How to you know our restaurant</legend>
+                <label for="social">Social media</label>
+                <input id="social" type="checkbox" name="social" value="social">
+                <label for="ads">Ads</label>
+                <input id="ads" type="checkbox" name="ads" value="ads">
+                <label for="recommendation">Recommendation</label>
+                <input id="recommendation" type="checkbox" name="recommendation" value="recommendation">
+            </fieldset>
+            <fieldset>
+                <legend>How would you rate our service</legend>
+                <label for="rate">Rate our service:</label>
+                <select name="rate" id="rate">
+                    <option value="poor">Poor</option>
+                    <option value="satisfied">Satisfied</option>
+                    <option value="good">Good</option>
+                    <option value="excellent" selected="excellent">Excellent</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>How would you rate our food</legend>
+                <label for="rating1">1</label>
+                <input id="rating1" type="radio" name="food-rating" value="rating1">
+                <label for="rating2">2</label>
+                <input id="rating2" type="radio" name="food-rating" value="rating2">
+                <label for="rating3">3</label>
+                <input id="rating3" type="radio" name="food-rating" value="rating3">
+                <label for="rating4">4</label>
+                <input id="rating4" type="radio" name="food-rating" value="rating4">
+                <label for="rating5">5</label>
+                <input id="rating5" type="radio" name="food-rating" value="rating5">
+            </fieldset>
+            <fieldset>
+                <legend>Please provide us with some feedback in the comment box </legend>
+                <label for="comment">Comment:</label>
+            <textarea id="comment" type="comment" cols="40" rows="20"></textarea>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    
+</body>
+</html>
